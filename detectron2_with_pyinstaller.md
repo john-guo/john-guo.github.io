@@ -1,3 +1,7 @@
+layout: page
+title: "Pwin10下基于detectron2的python脚本用pyinstaller打包exe的注意事项"
+permalink: /detectron2_with_pyinstaller.md
+
 # win10下基于detectron2的python脚本用pyinstaller打包exe的注意事项
 
 
