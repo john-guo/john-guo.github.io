@@ -30,7 +30,7 @@ WebView2没有提供任何直接操控DOM的办法，因此想要让外部图像
     }
 ```
 
-5. 性能最好的办法是创建canvas，然后宿主端把图片数据复制到sharedbuffer中，js端得到后把图像数据转换成ImageData，然后利用cavans的putImageData进行绘画，唯一要注意的是写入sharedbuffer数据必修是rgba32格式，也就是数据总字节数必须是4倍的长x宽。
+5. 性能最好的办法是创建canvas，然后宿主端把图片数据复制到sharedbuffer中，js端得到后把图像数据转换成ImageData，然后利用canvas的putImageData进行绘画，唯一要注意的是写入sharedbuffer数据必修是rgba32格式，也就是数据总字节数必须是4倍的长x宽。
 
 ```   
     getImageData(size: number, width: number, height: number): ImageData | null {
