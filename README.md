@@ -5,3 +5,5 @@
 * [VS项目包管理器更新所有依赖到正确版本的方法](nuget_update.md)
 
 * [使用微软edge web控件WebView2对外部图像数据进行高性能显示的办法](webview2_sharedbuffer_performance.md)
+
+* [WPF DataGrid一个编辑单元格容易崩溃bug的改进办法](wpf_datagrid_bug.md)
